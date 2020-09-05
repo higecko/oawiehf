@@ -4,10 +4,10 @@
     name: "default",
     steps: [
         {
-            "name": "build",
-            "image": "alpine",
-            "commands": [
-                "echo jsonnet world",
+            name: "build",
+            image: "alpine",
+            commands: [
+                "echo quoteless jsonnet world",
             ]
         }
     ]
