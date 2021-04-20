@@ -1,6 +1,6 @@
 local SOMETHING="boo";
 
-{
+[{
     kind: pipeline,
     type: docker,
     name: "default",
@@ -13,4 +13,4 @@ local SOMETHING="boo";
             ]
         }
     ]
-}
+}]
