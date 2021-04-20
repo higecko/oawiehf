@@ -1,4 +1,4 @@
-local SOMETHING="boo"
+local SOMETHING="boo";
 
 {
     kind: pipeline,
