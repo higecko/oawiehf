@@ -1,5 +1,3 @@
-local SOMETHING="boo";
-
 [{
     kind: pipeline,
     type: docker,
