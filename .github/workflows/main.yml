@@ -67,11 +67,11 @@ jobs:
 #           secrets: # optional
 #           # List of secret files to expose to the build (eg. key=filename, MY_SECRET=./secret.txt)
 #           secret-files: # optional
-          # List of SSH agent socket or keys to expose to the build
-          ssh: # optional
-          # List of tags
-          tags: # optional
-          # Sets the target stage to build
-          target: # optional
-          # GitHub Token used to authenticate against a repository for Git context
-          github-token: # optional, default is ${{ github.token }}
+#           # List of SSH agent socket or keys to expose to the build
+#           ssh: # optional
+#           # List of tags
+#           tags: # optional
+#           # Sets the target stage to build
+#           target: # optional
+#           # GitHub Token used to authenticate against a repository for Git context
+#           github-token: # optional, default is ${{ github.token }}
