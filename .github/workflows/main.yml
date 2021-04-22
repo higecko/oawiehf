@@ -75,5 +75,14 @@ jobs:
 #           target: # optional
 #           # GitHub Token used to authenticate against a repository for Git context
 #           github-token: # optional, default is ${{ github.token }}
+      
+      - name: Install Goss
+        # You may pin to the exact commit or the version.
+        # uses: e1himself/goss-installation-action@7f6dff125be808f999d4d5dd29eff9d0c4a02c3d
+        uses: e1himself/goss-installation-action@v1.0.3
+        with:
+          # Goss release version to install
+          version: v0.3.9
+      
       - name: Run image
-        run: docker run -d --name test -it test:local
+        run: dgoss run -d --name test -it test:local
