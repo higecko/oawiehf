@@ -75,3 +75,5 @@ jobs:
 #           target: # optional
 #           # GitHub Token used to authenticate against a repository for Git context
 #           github-token: # optional, default is ${{ github.token }}
+      - name: Run image
+        run: docker run -D --name test -it test:local
